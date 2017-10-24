@@ -34,14 +34,14 @@ REQUESTS_MINUTE_RATE = 10
 
 # Usage
 
-You must ruby installed on your system.
+You must have ruby on your system.
 
 ```sh
 bundle install
 ruby ./main.rb
 ```
 
-Raw json files are downloaded into `./data/<name-of-the-city>/>` directory.  
+Raw json files are downloaded into `./data/name-of-the-city/` directory.  
 1 request = 1 day of history = 1 json file.
 
 The script will stop when the daily limit is reached, or when it received 3 consecutive errors.
