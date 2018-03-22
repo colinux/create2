@@ -8,7 +8,7 @@ CITY = OpenStruct.new(name: "San_Francisco", country: "US")
 
 # The dates range for which you want data.
 # The script will begin with most recent dates.
-DATES_RANGE = (Date.new(1990, 1, 1)..Date.new(2016, 12, 31))
+DATES_RANGE = (Date.new(1990, 1, 1)..Date.new(2017, 12, 31))
 
 # Download options
 OPTIONS = {
